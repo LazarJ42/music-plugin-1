@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlitchDelayEffect - Standalone Plugin", "GlitchDelayEffect_StandalonePlugin.vcxproj", "{4CDEB34B-7496-EAE8-DC14-41D6C82A0269}"
+	ProjectSection(ProjectDependencies) = postProject
+		{019503A3-0B87-A9FB-E645-AAB273235581} = {019503A3-0B87-A9FB-E645-AAB273235581}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlitchDelayEffect - VST3", "GlitchDelayEffect_VST3.vcxproj", "{020ADC23-4915-B1E3-B0D4-7506DF25684F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{019503A3-0B87-A9FB-E645-AAB273235581} = {019503A3-0B87-A9FB-E645-AAB273235581}
+		{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7} = {6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlitchDelayEffect - Shared Code", "GlitchDelayEffect_SharedCode.vcxproj", "{019503A3-0B87-A9FB-E645-AAB273235581}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlitchDelayEffect - VST3 Manifest Helper", "GlitchDelayEffect_VST3ManifestHelper.vcxproj", "{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020ADC23-4915-B1E3-B0D4-7506DF25684F}.Debug|x64.ActiveCfg = Debug|x64
+		{020ADC23-4915-B1E3-B0D4-7506DF25684F}.Debug|x64.Build.0 = Debug|x64
+		{020ADC23-4915-B1E3-B0D4-7506DF25684F}.Release|x64.ActiveCfg = Release|x64
+		{020ADC23-4915-B1E3-B0D4-7506DF25684F}.Release|x64.Build.0 = Release|x64
+		{4CDEB34B-7496-EAE8-DC14-41D6C82A0269}.Debug|x64.ActiveCfg = Debug|x64
+		{4CDEB34B-7496-EAE8-DC14-41D6C82A0269}.Debug|x64.Build.0 = Debug|x64
+		{4CDEB34B-7496-EAE8-DC14-41D6C82A0269}.Release|x64.ActiveCfg = Release|x64
+		{4CDEB34B-7496-EAE8-DC14-41D6C82A0269}.Release|x64.Build.0 = Release|x64
+		{019503A3-0B87-A9FB-E645-AAB273235581}.Debug|x64.ActiveCfg = Debug|x64
+		{019503A3-0B87-A9FB-E645-AAB273235581}.Debug|x64.Build.0 = Debug|x64
+		{019503A3-0B87-A9FB-E645-AAB273235581}.Release|x64.ActiveCfg = Release|x64
+		{019503A3-0B87-A9FB-E645-AAB273235581}.Release|x64.Build.0 = Release|x64
+		{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}.Debug|x64.ActiveCfg = Debug|x64
+		{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}.Debug|x64.Build.0 = Debug|x64
+		{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}.Release|x64.ActiveCfg = Release|x64
+		{6F88FECC-F6EC-5863-1AD8-1D30AB87A5B7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
